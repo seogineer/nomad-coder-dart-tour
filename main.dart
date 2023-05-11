@@ -1,6 +1,6 @@
 void main() {
-  // late를 사용하면 나중에 값을 할당할 수 있다.
-  late final String name;
-  // do something, go to api
-  name = 'seogineer';
+  // compile-time constant
+  // 컴파일 시점에 고정되어야 하는 상수값을 지정할 때 사용
+  // 앱이 실행되고 API를 통해 가져온 값을 갱신해야 하는 경우 final을 사용
+  const PI = 3.14;
 }
