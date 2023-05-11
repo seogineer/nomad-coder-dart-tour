@@ -1,7 +1,8 @@
 void main() {
-  var name = 'seogineer';
-  name = '개발자';
-
-  String name2 = 'seogineer';
-  name2 = '개발자';
+  String? nickName = 'seogineer'; // ?를 붙이면 null이 될 수도 있다는 선언
+  nickName = null;
+  // if (nickName != null) {
+  //   nickName.isNotEmpty;
+  // }
+  nickName?.isNotEmpty;
 }
