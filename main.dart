@@ -1,13 +1,8 @@
 void main() {
-  var player = {
-    'name': 'seogineer',
-    'xp': 19.99,
-    'superpower': false,
-  };
-
-  Map<int, bool> player2 = {
-    1: false,
-    2: true,
-    3: false,
-  };
+  var numbers = {1, 2, 3, 4};
+  // Set<int> numbers = {1, 2, 3, 4};
+  numbers.add(1);
+  numbers.add(1);
+  numbers.add(1);
+  print(numbers);
 }
