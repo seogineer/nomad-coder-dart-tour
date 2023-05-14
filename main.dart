@@ -1,16 +1,6 @@
 void main() {
-  var giveMeFive = true;
-
-  // List<int> numbers = [1, 2, 3, 4];
-  var numbers = [
-    1,
-    2,
-    3,
-    4,
-    if (giveMeFive) 5,
-  ];
-
-  numbers.add(1);
-
-  print(numbers);
+  var name = "seogineer";
+  var age = 12;
+  var greeting = 'Hello everyone, My name is $name and I\'m ${age + 2}';
+  print(greeting);
 }
