@@ -1,9 +1,16 @@
 void main() {
-  String name = "seogineer";
-  bool alive = true;
-  int age = 12;
-  double money = 69.99;
+  var giveMeFive = true;
 
-  num x = 12;
-  x = 1.1;
+  // List<int> numbers = [1, 2, 3, 4];
+  var numbers = [
+    1,
+    2,
+    3,
+    4,
+    if (giveMeFive) 5,
+  ];
+
+  numbers.add(1);
+
+  print(numbers);
 }
